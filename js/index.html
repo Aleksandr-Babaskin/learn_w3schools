@@ -35,5 +35,26 @@
     >
       Лампочка выключена
     </button>
+    <br />
+    <br />
+    <h3>Можеть менять стили, скрывать или отображать элементы</h3>
+    <p id="demoStyle">JS позволяет менять стили</p>
+    <button
+      type="button"
+      onclick="document.getElementById('demoStyle').style.fontSize='40px'"
+    >
+      Изменить размер текста
+    </button>
+    <br />
+    <p id="noneElement">Пример скрытия элементов</p>
+    <button
+      type="button"
+      onclick="document.getElementById('noneElement').style.display='none'"
+    >
+      Кнопка для скрытия элементов
+    </button>
+    <br />
+    <p id="newElement" style="display: none;">Пример отображения элементов</p>
+    <button type="button" onclick="document.getElementById('newElement').style.display='block'">Кнопка для отображения элементов</button>
   </body>
 </html>
